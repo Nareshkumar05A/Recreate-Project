@@ -1,0 +1,42 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pic_txt{
+    display: flex;
+    align-items: center;
+}
+.picture{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.new{
+    background-color: antiquewhite;
+    width: 100%;
+    position: fixed;
+}
+h6{
+    display: block;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* width: 100%; */
+    /* flex-grow: 1; */
+}
+.list{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    gap: 2rem;
+
+}
+.Search{
+    display: flex;
+    margin: ;
+     
+}

@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  border: 10px solid rgb(6, 9, 24);
+}
+body{
+  margin-left:20%;
+  margin-right: 20%;
+  text-align: justify;
+  font-size: xx-large;
+  margin-top: 110px;
+  background-color: rgb(234, 221, 247);
+}
+.font{
+
+  display: flex;
+  align-items: end;
+  margin-bottom: 30px;
+}
+.font h3{
+  text-indent: end;
+}
+.font h1{
+  color: rgb(80, 16, 80);
+  text-transform: uppercase;
+  margin-left: auto;
+  align-items: end;
+  font: width 30px;
+  font-size: 45px;
+}
+.Missle{
+      font-family:'Times New Roman', Times, serif;
+      letter-spacing: 2px;
+      font-size:25px;
+      margin-bottom: 40px;
+}
+.Missle h5{
+  font-size: 4rem;
+  width: 50rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
+.bio ul li{
+   text-indent: 50px;
+   list-style-position: inside;
+   font-size: 20px;
+   margin-top: 30px;
+}
+.space-Biograph h3{
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+footer{
+  margin-top: 30px;
+  text-align: end;
+  font-size: 30px;
+  margin-bottom: 65px;
+}
+footer a{
+  color: blue;
+  text-decoration: none;
+}
+
+footer a:hover{
+      text-decoration: underline;
+      background-color: rgb(173, 167, 71);
+}
+footer a:active{
+      color: brown;
+}
+@media screen and (max-width:768px){
+  body{
+    background-color: orange;
+    background-image: radial-gradient(whitesmoke,red);
+  }
+}
+@media screen and (max-width:992px){
+  body{
+    background-color: orange;
+    background-image: radial-gradient(whitesmoke,red);
+    margin: auto;
+  }
+}
